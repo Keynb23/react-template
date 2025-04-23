@@ -1,0 +1,42 @@
+.AnimatedText { 
+    font-size: 2rem; 
+    color: #333; 
+    text-align: center;
+  }
+  
+  .text.animated {
+    animation-duration: 3s;
+    animation-name: slide-in;
+
+  }
+  
+  @keyframes slide-in {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+  
+  .AnimateBtn {
+    margin-top: 20px;
+  }
+  
+  .AnimateBtn button {
+    padding: 8px 16px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .AnimateBtn button:hover {
+    background-color: #35bd52;
+  }
+
+  

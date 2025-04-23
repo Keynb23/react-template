@@ -1,0 +1,31 @@
+/* App-wide styles */
+.App {
+  text-align: center;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.example-component { 
+  padding: 20px; 
+  background-color: #f0f0f0; 
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.home-page { 
+  text-align: center; 
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Add some basic styling to the body */
+body {
+  background-color: #ffffff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}

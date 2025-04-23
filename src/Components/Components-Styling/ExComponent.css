@@ -1,0 +1,9 @@
+/* ExampleComponent specific styles */
+.example-component h2 {
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.example-component p {
+  color: #666;
+}
